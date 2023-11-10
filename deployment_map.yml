@@ -6,7 +6,7 @@ pipelines:
       source:
         provider: github
         properties:
-          repository: dst-ygt-configuration
+          repository: dst-ygt-configuration-dev
           branch: main
           owner: yara-digitalproduction
           oauth_token_path: /adf/github_token

@@ -1,8 +1,8 @@
 AWSTemplateFormatVersion: 2010-09-09
-Description: Yara DPP ADF Template Example
+Description: Yara DST YGT CONFIGURATION DEV
 Parameters:
   ProjectName:
-    Description: Descriptive name of the project
+    Description: This is the inception of the dst-ygt-configuration migration
     Type: String
   ModuleName:
     Description: Descriptive name of the module
