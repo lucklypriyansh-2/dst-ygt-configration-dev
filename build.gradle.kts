@@ -61,7 +61,7 @@ dependencies {
     implementation("io.quarkus:quarkus-smallrye-health:$quarkusPlatformVersion")
 
     // FasterXML Jackson Kotlin module
-    implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.14.+")
+    implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.15.+")
 
     // Kotlin
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
