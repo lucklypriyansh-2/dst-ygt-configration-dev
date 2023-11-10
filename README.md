@@ -60,7 +60,17 @@ You can run your application in dev mode that enables live coding using:
 ./gradlew quarkusDev
 ```
 
+```shell script
+./gradlew clean assemble quarkusDev
+```
+
 > **_NOTE:_**  Quarkus now ships with a Dev UI, which is available in dev mode only at http://localhost:8080/q/dev/.
+
+### Test paths
+
+The sample path for testing is "/hello"
+
+
 
 ### Packaging and running the application
 
@@ -115,3 +125,5 @@ The Quarkus application configuration is located in `src/main/resources/applicat
 ## Contact
 ***
 Slack: [Team Platform](https://yaradigitalproduction.slack.com/archives/C01LF97E6TA)
+
+
