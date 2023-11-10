@@ -70,7 +70,7 @@ dependencies {
     implementation("io.arrow-kt:arrow-core:1.1.5")
 
     // AWS
-    implementation("com.amazonaws:aws-lambda-java-runtime-interface-client:2.1.1")
+    implementation("com.amazonaws:aws-lambda-java-runtime-interface-client:2.4.1")
     implementation(enforcedPlatform("software.amazon.awssdk:bom:$awsSdk2Version"))
 
     implementation("software.amazon.awssdk:url-connection-client")
