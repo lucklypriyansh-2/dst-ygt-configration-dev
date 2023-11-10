@@ -1,12 +1,12 @@
 # This file is not consumed from this location but acts as a backup and source of truth.
 # Commit this file into the CodeCommit repository in the deployment account for it to be active with ADF.
 pipelines:
-  - name: dpp-adf-enabled-template
+  - name: dst-ygt-configuration
     default_providers:
       source:
         provider: github
         properties:
-          repository: dpp-adf-enabled-template
+          repository: dst-ygt-configuration
           branch: main
           owner: yara-digitalproduction
           oauth_token_path: /adf/github_token

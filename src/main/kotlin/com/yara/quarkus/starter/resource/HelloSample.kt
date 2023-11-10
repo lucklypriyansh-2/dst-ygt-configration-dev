@@ -1,5 +1,4 @@
-package com.yara.quarkus.starter
-
+package com.yara.quarkus.starter.resource
 import com.yara.quarkus.starter.model.ResponseSample
 import javax.ws.rs.GET
 import javax.ws.rs.Path
@@ -11,7 +10,7 @@ import javax.ws.rs.core.MediaType.APPLICATION_JSON
 class HelloSample {
 
     @GET @Path("/")
-    fun helloWorld(): String {
-        return "Hello, world!"
+    fun helloWorld(): ResponseSample {
+        return ResponseSample("Hello world")
     }
 }
