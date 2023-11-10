@@ -1,0 +1,50 @@
+{
+  "site_id": "GLO",
+  "production_unit": "NPK",
+  "time_series": [
+    {
+      "tag_name": "Soft sensor",
+      "data_type": "Double",
+      "unit": "m/s",
+      "data": [
+        {
+          "timestamp": "2021-11-15T17:15:59Z",
+          "quality": "GOOD",
+          "value": "51.0"
+        },
+        {
+          "timestamp": "2021-11-15T17:16:59Z",
+          "quality": "BAD",
+          "value": "52.0"
+        },
+        {
+          "timestamp": "2021-11-15T17:17:59Z",
+          "quality": "UNCERTAIN",
+          "value": "53.0"
+        }
+      ]
+    },
+    {
+      "tag_name": "Soft sensor",
+      "data_type": "Double",
+      "unit": "m/s",
+      "data": [
+        {
+          "timestamp": "2021-11-15T17:15:59Z",
+          "quality": "GOOD",
+          "value": "51.0"
+        },
+        {
+          "timestamp": "2021-11-15T17:16:59Z",
+          "quality": "BAD",
+          "value": "52.0"
+        },
+        {
+          "timestamp": "2021-11-15T17:17:59Z",
+          "quality": "UNCERTAIN",
+          "value": "53.0"
+        }
+      ]
+    }
+  ]
+}

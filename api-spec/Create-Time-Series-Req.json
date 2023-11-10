@@ -1,0 +1,26 @@
+{
+  "site_id": "GLO",
+  "production_unit": "NPK",
+  "name": "Soft sensor",
+  "description": "Soft sensor for fuel energy.",
+  "asset_id": "Asset ID of equipment linked to this time series.",
+  "data_type": "Double",
+  "unit": "kWh",
+  "data_points": [
+    {
+      "timestamp": "2021-11-15T17:15:59Z",
+      "quality": "GOOD",
+      "value": "51.0"
+    },
+    {
+      "timestamp": "2021-11-15T17:16:59Z",
+      "quality": "BAD",
+      "value": "52.0"
+    },
+    {
+      "timestamp": "2021-11-15T17:17:59Z",
+      "quality": "UNCERTAIN",
+      "value": "53.0"
+    }
+  ]
+}

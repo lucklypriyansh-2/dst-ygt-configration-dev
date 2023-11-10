@@ -1,0 +1,16 @@
+{
+    "data": [
+        {
+            "id": "slu_LM060124~value",
+            "name": "slu.Missing.Missing.LM060124~value",
+            "type": "NOT_AVAILABLE",
+            "unit": "NOT_AVAILABLE",
+            "created_at": "NOT_AVAILABLE",
+            "updated_at": "NOT_AVAILABLE"
+        }
+    ],
+    "metadata": {
+        "total_count": 1,
+        "next_token": "NOT_AVAILABLE"
+    }
+}

@@ -1,0 +1,8 @@
+root = true
+
+[*.{kt,kts}]
+#Do not care whether trailing commas are used or not. This way, Ktlint IntelliJ and Gradle plugins use the same rules
+ktlint_disabled_rules = trailing-comma-on-declaration-site, trailing-comma-on-call-site
+#disabled_rules is deprecated, but is used by ktlint-intellij-plugin
+#Deprecated trailing-comma corresponds to "trailing-comma-on-declaration-site" and "trailing-comma-on-call-site"
+disabled_rules = trailing-comma

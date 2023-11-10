@@ -1,0 +1,16 @@
+{
+    "data": [
+        {
+            "id": "GLO_SADT5027_24h~value",
+            "name": "GLO.NitricAcid.SSA.SADT5027_24h~value",
+            "type": "double",
+            "unit": "NOT_AVAILABLE",
+            "created_at": "NOT_AVAILABLE",
+            "updated_at": "NOT_AVAILABLE"
+        }
+    ],
+    "metadata": {
+        "total_count": 1,
+        "next_token": "NOT_AVAILABLE"
+    }
+}

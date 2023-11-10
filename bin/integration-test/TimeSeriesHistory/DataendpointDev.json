@@ -1,0 +1,16 @@
+{
+    "id": "slu_LM060124~value",
+    "unit": "NOT_AVAILABLE",
+    "data_type": "Double",
+    "data": [
+        {
+            "quality": "NOT_AVAILABLE",
+            "timestamp": "2022-04-06T18:00:18.000Z",
+            "value": "34.16645050048828"
+        }
+    ],
+    "metadata": {
+        "total_count": 1,
+        "next_token": "NOT_AVAILABLE"
+    }
+}

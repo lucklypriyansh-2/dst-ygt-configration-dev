@@ -1,0 +1,35 @@
+# This file is not consumed from this location but acts as a backup and source of truth.
+# Commit this file into the CodeCommit repository in the deployment account for it to be active with ADF.
+pipelines:
+  - name: dpp-adf-enabled-template
+    default_providers:
+      source:
+        provider: github
+        properties:
+          repository: dpp-adf-enabled-template
+          branch: main
+          owner: yara-digitalproduction
+          oauth_token_path: /adf/github_token
+          json_field: token
+
+      build:
+        provider: codebuild
+        properties:
+          spec_filename: buildspec.yml
+          image: "STANDARD_5_0"
+          environment_variables:
+            CONTAINS_TRANSFORM: True # If you define this environment variable its expected that you are using the contains_transform helper in your build stage.
+
+      deploy:
+        provider: cloudformation
+        properties:
+          action: replace_on_failure
+
+    params:
+      notification_endpoint: burak.ergenc@yara.com
+      restart_execution_on_update: True
+
+    targets:
+      - name: Sandbox-Account
+        path: 943596344679
+        regions: eu-west-1

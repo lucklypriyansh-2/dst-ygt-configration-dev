@@ -1,0 +1,33 @@
+AWSTemplateFormatVersion: 2010-09-09
+Description: Yara DPP ADF Template Example
+Parameters:
+  ProjectName:
+    Description: Descriptive name of the project
+    Type: String
+  ModuleName:
+    Description: Descriptive name of the module
+    Type: String
+  SiteName:
+    Description: Site name abbreviation
+    Type: String
+    Default: GLO
+
+
+Resources:
+  ParameterDemo:
+    Type: AWS::SSM::Parameter
+    Properties:
+      Description: "demo resource from the adf template"
+      Name:
+        !Join [
+          ".",
+          [!Ref "SiteName", "global", "demo", !Ref "ModuleName"],
+        ]
+      Value: "demo"
+      Type: String
+      Tags:
+        name:
+          !Join [
+            "-",
+            [!Ref "SiteName", "global", "demo", !Ref "ModuleName"],
+          ]

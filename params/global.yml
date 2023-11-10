@@ -1,0 +1,14 @@
+Parameters:
+  ProjectName: dpp-cof
+  ModuleName: template
+
+Tags:
+  owner: "connected-factory"
+  environment: "dev"
+  version: "1.0"
+  commit: ""
+  confidentiality: ""
+  compliance: ""
+  edge-role: ""
+  deployment-source: "adf"
+  notification-target: "arn:::sns::set-me"
