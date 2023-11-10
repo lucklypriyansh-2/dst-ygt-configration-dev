@@ -67,7 +67,7 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
 
     // arrow-kt.io
-    implementation("io.arrow-kt:arrow-core:1.1.5")
+    implementation("io.arrow-kt:arrow-core:1.2.1")
 
     // AWS
     implementation("com.amazonaws:aws-lambda-java-runtime-interface-client:2.1.1")
