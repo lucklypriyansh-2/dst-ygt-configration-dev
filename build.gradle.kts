@@ -97,8 +97,8 @@ dependencies {
 
     // Integration Test
     // integrationTestImplementation("org.graalvm.sdk:graal-sdk:21.3.1")
-    integrationTestImplementation("org.graalvm.js:js:22.3.1")
-    integrationTestImplementation("org.graalvm.js:js-scriptengine:22.3.1")
+    integrationTestImplementation("org.graalvm.js:js:23.0.2")
+    integrationTestImplementation("org.graalvm.js:js-scriptengine:23.0.2")
     integrationTestImplementation("org.junit.jupiter:junit-jupiter-api:5.9.2")
     integrationTestImplementation("com.intuit.karate:karate-junit5:1.3.0") {
         exclude(group = "ch.qos.logback", module = "logback-classic")
