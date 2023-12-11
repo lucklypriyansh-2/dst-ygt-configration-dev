@@ -86,7 +86,7 @@ dependencies {
     testImplementation("io.quarkus:quarkus-junit5:$quarkusPlatformVersion")
     testImplementation("io.quarkus:quarkus-junit5-mockito:$quarkusPlatformVersion")
     testImplementation("io.quarkus:quarkus-test-amazon-lambda:$quarkusPlatformVersion")
-    testImplementation("io.rest-assured:rest-assured:5.3.0")
+    testImplementation("io.rest-assured:rest-assured:5.4.0")
     testImplementation("io.specto:hoverfly-java:0.14.3") {
         exclude(group = "ch.qos.logback", module = "logback-classic")
     }
