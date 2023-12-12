@@ -3,7 +3,7 @@ plugins {
     kotlin("jvm") version "1.7.21"
     kotlin("plugin.allopen") version "1.7.21"
     id("io.quarkus")
-    id("org.jlleitschuh.gradle.ktlint") version "11.3.1"
+    id("org.jlleitschuh.gradle.ktlint") version "12.0.3"
     id("com.contrastsecurity.contrastplugin") version "2.0.0"
     id("pl.allegro.tech.build.axion-release") version "1.14.4"
 }
